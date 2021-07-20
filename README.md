@@ -18,8 +18,7 @@ Ensuite, commençons à configurer les fichiers:
 * `nano named.conf.local`  
 ![named.conf.local](/assets/named.conf.local.png)
 
-### Explication:
-`type master `: indique qu’il s’agit du serveur dédié maitre   
+>`type master `: indique qu’il s’agit du serveur dédié maitre   
 `allow-query` : indiquer qui est-ce qu'on autorise à intérroger le serveur  
 `file “/etc/bind/db.abdoul.mg”` : indique le fichier qui contient les informations sur le nom de domaine et les sous domaines.  
 
