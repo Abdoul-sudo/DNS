@@ -49,7 +49,9 @@ Ensuite, commençons à configurer les fichiers:
 
 
 ## <a name="verif"> Vérification d'erreurs</a>
-En cas d"erreur, pour vérifier ce que c'est et où elle se trouve, il suffit de lancer la commande: __named-checkzone nomdedomaine. db.nomdedomaine__  
+En cas d"erreur, pour vérifier ce que c'est et où elle se trouve, il suffit de lancer la commande:   
+ __named-checkconf -z__ et   
+__named-checkzone nomdedomaine. db.nomdedomaine__  
 ![verif.err](/assets/verif.err.png)
 
 ## <a name="wifi"> Création d'un point d'accès</a>
