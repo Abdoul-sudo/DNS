@@ -26,7 +26,7 @@ Ensuite, commençons à configurer les fichiers:
 ![named.conf.options](/assets/named.conf.options.png)
 
 * `cp /etc/bind/db.local /etc/bind/db.abdoul.mg`   
-`cp /etc/bind/db.127 /etc/bind/db.192`
+`cp /etc/bind/db.127 /etc/bind/db.abdoul.mg.inv`
 
 * `nano db.abdoul.mg`  
 ![db.abdoul.mg](/assets/db.abdoul.mg.png)
